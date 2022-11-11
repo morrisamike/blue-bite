@@ -1,0 +1,7 @@
+.card{
+    max-width: 90vw;
+    height: auto;
+    border-radius: 25px;
+    overflow: hidden;
+    margin: auto;
+}

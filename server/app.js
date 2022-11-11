@@ -12,6 +12,7 @@ app.use(bodyParser.json())
 
 app.get('/page/:id', (req, res) => {
 	const paramId = req.params.id.toLowerCase();
+	console.log("Request ID:" +paramId );
 	const page = PAGES.find(({ id }) => id === paramId);
 
 	if (page) {
